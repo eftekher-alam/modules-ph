@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        .container1 {
+            border: 2px solid tomato;
+            height: 300px;
+            display: flex;
+
+            /* >>>>>>>>> align all the items horizontally <<<<<<<<<<*/
+
+            /* justify-content: start; //by default */
+            /* justify-content: end; */
+            /* justify-content: center; */
+            /* justify-content: space-between; */
+            /* justify-content: space-evenly; */
+            justify-content: space-around;
+
+
+            /* >>>>>>>>> align all the items vertically <<<<<<<<<< */
+
+            /* by default. align at the top  */
+            /* align-items: start; */
+
+            align-items: center;
+            /* align-items: end; */
+
+
+            /* >>>>>>>>> change the direction of flex <<<<<<<<<< */
+            /* default  */
+            /* flex-direction: row; */
+
+            /* row wise but reverse order*/
+            /* flex-direction: row-reverse; */
+
+            /* justify-content will work column wise */
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
+
+
+            /* >>>>>>>>> wrap items to avoid overflow (something like word wrap  concept) <<<<<<<<<<*/
+            /* flex-wrap: wrap; */
+
+            /* after wrap, remaining part appeared at top  */
+            /* flex-wrap: wrap-reverse; */
+        }
+
+        .box {
+            border: 2px solid green;
+            height: 50px;
+            width: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container1">
+        <div class="box">box 1</div>
+        <div class="box">box 2</div>
+        <div class="box">box 3</div>
+        <div class="box">box 4</div>
+        <div class="box">box 5</div>
+        <div class="box">box 6</div>
+        <div class="box">box 7</div>
+        <div class="box">box 8</div>
+        <div class="box">box 9</div>
+        <div class="box">box 10</div>
+    </div>
+</body>
+
+</html>
