@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector</title>
+    <style>
+        /* class selector */
+        .font-design {
+            color: brown;
+            background-color: rgba(127, 255, 212, 0.473);
+        }
+
+        /* id selector */
+        /* --> Id should use uniquely */
+        #test-id {
+            font-size: larger;
+            background-color: blueviolet;
+        }
+
+        p {
+            background-color: aqua;
+        }
+
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        li,
+        div {
+            background-color: blue;
+        }
+
+        input[type="password"] {
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="font-design">Header 1</h1>
+    <h2 id="test-id">Header 2</h2>
+    <h3>Header 3</h3>
+    <h4>Header 4</h4>
+    <p>This is paragraph 1</p>
+    <p>This is paragraph 2</p>
+    <p>This is paragraph 3</p>
+    <p>This is paragraph 4</p>
+    <p class="font-design">This is paragraph 5</p>
+
+    <ol>
+        <li>Shuvo</li>
+        <li>shohag</li>
+    </ol>
+    <div>
+        Hello this is shuvo's family
+    </div>
+    <div>
+        <form action="post">
+            <input type="text">
+            <input type="password" name="" id="">
+        </form>
+    </div>
+</body>
+
+</html>
+
