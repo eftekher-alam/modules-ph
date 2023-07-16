@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive card</title>
+    <style>
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        h1 {
+            margin-top: 0;
+        }
+
+        .card {
+            border: 1px solid gainsboro;
+            margin: .5rem;
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: .5rem;
+        }
+
+        .card-header {
+            height: 30vh;
+        }
+
+        .card-body {
+            height: 30vh;
+        }
+
+        @media screen and (max-width:567px) {
+            .card {
+                grid-template-columns: 1fr;
+            }
+
+
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <img src="./images/food.jpeg" alt="">
+            </div>
+            <div class="card-body">
+                <h1>Food item 1</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et nesciunt molestiae impedit, consequatur
+                    nam quod quas fugiat? Ducimus, corporis dolor.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header">
+                <img src="./images/food.jpeg" alt="">
+            </div>
+            <div class="card-body">
+                <h1>Food item 2</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi voluptatem cupiditate magnam animi
+                    necessitatibus unde repellendus ut. Laborum, doloremque culpa?</p>
+                <button>Read More</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
