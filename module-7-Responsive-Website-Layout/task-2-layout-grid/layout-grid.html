@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout with grid</title>
+    <style>
+        .item1 {
+            grid-area: item1;
+            background-color: #E71E66;
+        }
+
+        .item2 {
+            grid-area: item2;
+            background-color: #FC9A13;
+        }
+
+        .item3 {
+            grid-area: item3;
+            background-color: #AA3BBC;
+        }
+
+        .item4 {
+            grid-area: item4;
+            background-color: #586C7B;
+        }
+
+        .container {
+            display: grid;
+            grid-template-areas:
+                'item1 item1 item2 item2'
+                'item1 item1 item3 item4';
+            gap: 10px;
+        }
+
+        .container>div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+            color: white;
+            font-weight: 800;
+        }
+
+        @media screen and (max-width:576px) {
+
+            .container {
+                grid-template-areas: 'item1' 'item2' 'item3' 'item4';
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item1">Item 1</div>
+        <div class="item2">Item 2</div>
+        <div class="item3">Item 3</div>
+        <div class="item4">Item 4</div>
+    </div>
+</body>
+
+</html>
