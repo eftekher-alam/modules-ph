@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .lathi {
+            width: 20px;
+            height: 250px;
+            background-color: burlywood;
+            margin-left: 200px;
+            transform: rotate(50deg);
+            transform-origin: top;
+            transition: transform .3s ease-out;
+        }
+
+        .field:hover .lathi {
+            transform: rotate(-40deg);
+
+            /* which point will be fixed */
+            transform-origin: top right;
+        }
+
+        .ball {
+            height: 30px;
+            width: 30px;
+            background-color: red;
+            border-radius: 50%;
+            transform: translate(360px, -100px);
+            transition: transform 2s ease-out .3s;
+        }
+
+        .field:hover .ball {
+            transform: translate(1300px, -300px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="field">
+        <div class="lathi"></div>
+        <div class="ball"></div>
+    </div>
+</body>
+
+</html>
