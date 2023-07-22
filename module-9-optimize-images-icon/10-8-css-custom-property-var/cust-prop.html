@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* custom property/variable */
+        :root {
+            --primary-color: rgb(179, 179, 179);
+            --secondary-color: seagreen;
+            --optional-color: tomato;
+        }
+
+        .theme-header {
+            height: 100px;
+            background-color: var(--secondary-color);
+        }
+
+        .theme-footer {
+            height: 100px;
+            background-color: var(--optional-color);
+        }
+
+        .theme-body {
+            height: 350px;
+            background-color: var(--primary-color);
+        }
+
+        .side-bar {
+            background-color: aqua;
+        }
+
+        .theme-container {
+            display: grid;
+            grid-template-columns: 150px calc(100% - 150px);
+            gap: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+</body>
+<div class="theme-container">
+    <div class="side-bar"></div>
+    <div class="main">
+        <div class="theme-header"></div>
+        <div class="theme-body"></div>
+        <div class="theme-footer"></div>
+    </div>
+</div>
+
+</html>
