@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* @keyframes bounce {
+            from {
+                left: 0px;
+            }
+
+            to {
+                left: 1268px;
+            }
+        } */
+        @keyframes bounce {
+            0% {
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                left: 325px;
+                top: 366px;
+            }
+
+            50% {
+                left: 650px;
+                top: 0px;
+            }
+
+            75% {
+                left: 975px;
+                top: 366px;
+            }
+
+            100% {
+                left: 1268px;
+                top: 0px;
+            }
+        }
+
+        .stage {
+            width: 1300px;
+            height: 400px;
+            background-color: springgreen;
+            border: 1rem solid rgb(156, 54, 54);
+        }
+
+        .ball {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background-color: rgb(255, 116, 24);
+            border: 2px solid rgb(0, 0, 0);
+            position: relative;
+            animation: bounce 4s ease-out 0s infinite alternate;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="stage">
+        <div class="ball"></div>
+    </div>
+</body>
+
+</html>
