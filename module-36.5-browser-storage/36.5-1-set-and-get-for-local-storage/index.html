@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="flex justify-center items-center h-screen">
+        <div id="card-container" class="space-y-4">
+            <h1 class="text-3xl font-bold text-green-600 text-center">Add Product</h1>
+            <div class="form-control">
+                <label class="input-group input-group-sm">
+                    <span class="w-1/2">Product name</span>
+                    <input id="product-name" type="text" placeholder="Type here"
+                        class="input input-bordered input-sm" />
+                </label>
+            </div>
+            <div class="form-control">
+                <label class="input-group input-group-sm">
+                    <span class="w-1/2">Quantity</span>
+                    <input id="product-quantity" type="text" placeholder="Type here"
+                        class="input input-bordered input-sm" />
+                </label>
+            </div>
+            <div>
+                <button id="add-to-card" class="btn btn-sm btn-success block mx-auto">Add to card</button>
+            </div>
+            <hr>
+            <h1 class="text-3xl font-bold text-green-600 text-center">Add Product</h1>
+        </div>
+    </div>
+
+    <script src="./localStorage.js"></script>
+</body>
+
+</html>
