@@ -1,4 +1,6 @@
 const addBtn = document.querySelector("#add-to-card");
+showCardData();
+
 addBtn.addEventListener("click", () => {
     const prodName = document.querySelector("#product-name").value;
     const prodQty = document.querySelector("#product-quantity").value;
@@ -17,6 +19,7 @@ function saveToLocal(prodName, prodQty) {
     const myArray = localData[1];
     const myupdated = myArray.concat(...[10, 23, 45]);
     localStorage.setItem("myArray", JSON.stringify(myupdated));
+    showCardData();
 }
 
 function getFromLocal() {
@@ -36,4 +39,18 @@ function getFromLocal() {
     }
 
     return [card, arrayreturn];
+}
+
+function showCardData() {
+    const localData = getFromLocal();
+
+    //Store object
+    const card = localData[0];
+    const cardItemContianer = document.querySelector("#card-item-contianer");
+    cardItemContianer.innerHTML = "";
+    for (const product in card) {
+        const li = document.createElement("li");
+        li.innerHTML = `<p>${product} : ${card[product]}</p>`;
+        cardItemContianer.appendChild(li);
+    }
 }
