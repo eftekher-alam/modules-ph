@@ -1,15 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Todo from './Todo'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <h3>Task List</h3>
+      <button onClick={handlerNonParam} >Non-Parameterize</button>
+      <button onClick={() => handlerParam("Eftekher")} >Parameterize</button>
       <ul>
         <Todo name="Finish all modules" isDone={false}></Todo>
         <Todo name="Academic Study" isDone={true}></Todo>
@@ -18,6 +15,14 @@ function App() {
       </ul>
     </>
   )
+}
+
+function handlerNonParam() {
+  alert("Non-parameterize event occur..!")
+}
+
+function handlerParam(name) {
+  alert("Welcome Mr. " + name);
 }
 
 export default App
