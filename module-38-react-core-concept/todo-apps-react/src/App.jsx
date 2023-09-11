@@ -1,10 +1,13 @@
 import './App.css'
+import Counter from './Counter';
 import Todo from './Todo'
 
 function App() {
   return (
     <>
-      <h3>Task List</h3>
+      <Counter></Counter>
+
+      {/* <h3>Task List</h3>
       <button onClick={handlerNonParam} >Non-Parameterize</button>
       <button onClick={() => handlerParam("Eftekher")} >Parameterize</button>
       <ul>
@@ -12,7 +15,7 @@ function App() {
         <Todo name="Academic Study" isDone={true}></Todo>
         <Todo name="Meet friend" isDone={true}></Todo>
         <Todo name="Attend class" isDone={false}></Todo>
-      </ul>
+      </ul> */}
     </>
   )
 }
