@@ -1,0 +1,13 @@
+.flex {
+    display: flex;
+    align-items: center;
+    border: 1px solid salmon;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.flag {
+    width: 40px;
+    height: 25px;
+    margin-left: 10px;
+}
