@@ -1,10 +1,12 @@
 import { useContext } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../provider/authProvider/AuthProvider";
+import { AiFillFacebook } from "react-icons/ai";
 
 const Register = () => {
 
-    const { createUser } = useContext(AuthContext);
+    const { createUser, googleSignIn } = useContext(AuthContext);
+    const navigate = useNavigate();
 
     const handlerRegister = e => {
         e.preventDefault();
@@ -12,8 +14,18 @@ const Register = () => {
         const email = e.target.email.value;
         const password = e.target.password.value;
         createUser(email, password)
-            .then(result => {
-                console.log(result.user);
+            .then(() => {
+                navigate("/")
+            })
+            .catch(error => {
+                console.log(error.message);
+            })
+    }
+
+    const handlerGoogleSignIn = () => {
+        googleSignIn()
+            .then(() => {
+                navigate("/")
             })
             .catch(error => {
                 console.log(error.message);
@@ -49,6 +61,14 @@ const Register = () => {
                         </div>
                         <div className="form-control mt-6">
                             <button className="btn btn-primary">Register</button>
+                        </div>
+                        <div className="form-control">
+                            <div className="w-full flex justify-center">
+                                <span onClick={handlerGoogleSignIn}>
+                                    <AiFillFacebook className="text-4xl"></AiFillFacebook>
+                                </span>
+                            </div>
+
                         </div>
                         <div className="form-control">
                             <label className="text-center">

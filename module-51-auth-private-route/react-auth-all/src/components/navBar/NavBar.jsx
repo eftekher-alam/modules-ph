@@ -21,6 +21,9 @@ const NavBar = () => {
                         <li><Link to={"/"} >Home</Link></li>
                         <li><Link to={"/login"} >Login</Link></li>
                         <li><Link to={"/register"} >Register</Link></li>
+                        {user && <>
+                            <li><Link to={"/orderList"} >Orders</Link></li>
+                        </>}
                     </ul>
                 </div>
                 <a className="btn btn-ghost normal-case text-xl">AuthAll</a>
@@ -30,6 +33,9 @@ const NavBar = () => {
                     <li><Link to={"/"} >Home</Link></li>
                     <li><Link to={"/login"} >Login</Link></li>
                     <li><Link to={"/register"} >Register</Link></li>
+                    {user && <>
+                        <li><Link to={"/orderList"} >Orders</Link></li>
+                    </>}
                 </ul>
             </div>
             <div className="navbar-end">
