@@ -10,11 +10,25 @@ function App() {
       <Student name="Eftekher" dept="CSE"></Student>
       <Student name="Manik" dept="EEE"></Student>
       <Student name="Durjoy" dept="CSE"></Student>
+      <Person name="Mr. Karim" age={35}></Person>
+      <Person name="Mr. Rahim"></Person>
     </>
   )
 }
 
+
+function Person(props) {
+  const { name, age = 0 } = props; //destructuring here, also set default value.
+  return (
+    <div>
+      <h2>Name : {name}</h2>
+      <h3>Age : {age}</h3>
+    </div>
+  );
+}
+
 function Student(props) {
+
   return (
     <div>
       <h2>Name : {props.name}</h2>

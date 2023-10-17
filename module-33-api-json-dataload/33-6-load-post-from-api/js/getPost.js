@@ -16,3 +16,4 @@ function bind(data) {
         postContainer.appendChild(div);
     }
 }
+

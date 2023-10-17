@@ -11,8 +11,23 @@
 
 <body>
     <header></header>
-    <main></main>
+    <main>
+        <div class="text-center my-8">
+            <input id="search-input" type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" />
+            <button id="search-btn" class="btn btn-outline btn-primary">Search</button>
+        </div>
+        <div id="phone-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 m-8 lg:m-16">
+        </div>
+        <div id="loading-contianer" class="flex justify-center items-center h-48 hidden">
+            <span class="loading loading-dots loading-lg"></span>
+        </div>
+        <div class="text-center">
+            <button id="show-all-btn" class="btn btn-outline btn-primary hidden">Show All</button>
+        </div>
+    </main>
     <footer></footer>
+    <!-- scripts -->
+    <script src="./js/phone.js"></script>
 </body>
 
 </html>
