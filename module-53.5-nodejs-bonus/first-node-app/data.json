@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/ZHB84QS/Health.png",
+        "title": "Clean water for children",
+        "category_name": "Health",
+        "category_bg": "#0052FF33",
+        "card_bg": "#0052FF26",
+        "button_bg": "#0052FF",
+        "description": "Extend a helping hand to provide free healthcare to impoverished children. Your donation is a lifeline, ensuring that these young souls receive vital medical attention they desperately need. With your support, we can offer them treatments, vaccinations, and regular check-ups, safeguarding their well-being. Your generosity can turn their dreams into reality, enabling them to grow healthy and strong. Together, we can break the cycle of illness and poverty, nurturing a generation that can thrive. Make a difference today by donating to our cause, and let's build a healthier and brighter future for these vulnerable children.",
+        "price": "$199.99"
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/0CzDKtL/Rectangle-4288.png",
+        "title": "Good education 1",
+        "category_name": "Education",
+        "category_bg": "#FF444A33",
+        "card_bg": "#FF444A26",
+        "button_bg": "#FF444A",
+        "description": "Join us in making a profound difference in the lives of disadvantaged children. Your donation fuels our commitment to providing free education to these young learners, opening doors to a world of opportunities they might never otherwise access. With your support, we can equip them with knowledge, skills, and hope, breaking the chains of poverty that have held them back. Together, we're nurturing future leaders, innovators, and change-makers. Every contribution, no matter how big or small, is an investment in a brighter tomorrow. Give the gift of education and help us create a more equitable and promising future for these deserving children.",
+        "price": "$49.99"
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/chtC7gm/Clothing.png",
+        "title": "Used Clothing Drive 1",
+        "category_name": "Clothing",
+        "category_bg": "#79C23F33",
+        "card_bg": "#79C23F26",
+        "button_bg": "#79C23F",
+        "description": "Join our Used Clothing Drive to promote better health for underprivileged children. By donating your gently used clothing items, you're contributing to their well-being in a unique way. Clean, warm clothes protect these kids from harsh weather and illnesses, allowing them to lead healthier lives. Your participation not only ensures their physical comfort but also boosts their self-esteem, helping them face life's challenges with confidence. Together, we can make a significant impact on their health and happiness. Join us in this compassionate initiative, and let's wrap these children in care and warmth for a brighter and healthier future.",
+        "price": "$79.99"
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/0CzDKtL/Rectangle-4288.png",
+        "title": "Good education 2",
+        "category_name": "Education",
+        "category_bg": "#FF444A33",
+        "card_bg": "#FF444A26",
+        "button_bg": "#FF444A",
+        "description": "Join us in making a profound difference in the lives of disadvantaged children. Your donation fuels our commitment to providing free education to these young learners, opening doors to a world of opportunities they might never otherwise access. With your support, we can equip them with knowledge, skills, and hope, breaking the chains of poverty that have held them back. Together, we're nurturing future leaders, innovators, and change-makers. Every contribution, no matter how big or small, is an investment in a brighter tomorrow. Give the gift of education and help us create a more equitable and promising future for these deserving children.",
+        "price": "$29.99"
+    },
+    {
+        "id": 5,
+        "picture": "https://i.ibb.co/0CzDKtL/Rectangle-4288.png",
+        "title": "Good education 3",
+        "category_name": "Education",
+        "category_bg": "#FF444A33",
+        "card_bg": "#FF444A26",
+        "button_bg": "#FF444A",
+        "description": "Join us in making a profound difference in the lives of disadvantaged children. Your donation fuels our commitment to providing free education to these young learners, opening doors to a world of opportunities they might never otherwise access. With your support, we can equip them with knowledge, skills, and hope, breaking the chains of poverty that have held them back. Together, we're nurturing future leaders, innovators, and change-makers. Every contribution, no matter how big or small, is an investment in a brighter tomorrow. Give the gift of education and help us create a more equitable and promising future for these deserving children.",
+        "price": "$39.99"
+    },
+    {
+        "id": 6,
+        "picture": "https://i.ibb.co/chtC7gm/Clothing.png",
+        "title": "Used Clothing Drive 2",
+        "category_name": "Clothing",
+        "category_bg": "#79C23F33",
+        "card_bg": "#79C23F26",
+        "button_bg": "#79C23F",
+        "description": "Join our Used Clothing Drive to promote better health for underprivileged children. By donating your gently used clothing items, you're contributing to their well-being in a unique way. Clean, warm clothes protect these kids from harsh weather and illnesses, allowing them to lead healthier lives. Your participation not only ensures their physical comfort but also boosts their self-esteem, helping them face life's challenges with confidence. Together, we can make a significant impact on their health and happiness. Join us in this compassionate initiative, and let's wrap these children in care and warmth for a brighter and healthier future.",
+        "price": "$14.99"
+    },
+    {
+        "id": 7,
+        "picture": "https://i.ibb.co/0CzDKtL/Rectangle-4288.png",
+        "title": "Good education 4",
+        "category_name": "Education",
+        "category_bg": "#FF444A33",
+        "card_bg": "#FF444A26",
+        "button_bg": "#FF444A",
+        "description": "Join us in making a profound difference in the lives of disadvantaged children. Your donation fuels our commitment to providing free education to these young learners, opening doors to a world of opportunities they might never otherwise access. With your support, we can equip them with knowledge, skills, and hope, breaking the chains of poverty that have held them back. Together, we're nurturing future leaders, innovators, and change-makers. Every contribution, no matter how big or small, is an investment in a brighter tomorrow. Give the gift of education and help us create a more equitable and promising future for these deserving children.",
+        "price": "$299.99"
+    },
+    {
+        "id": 8,
+        "picture": "https://i.ibb.co/ZHB84QS/Health.png",
+        "title": "Clean water for children",
+        "category_name": "Health",
+        "category_bg": "#0052FF33",
+        "card_bg": "#0052FF26",
+        "button_bg": "#0052FF",
+        "description": "Extend a helping hand to provide free healthcare to impoverished children. Your donation is a lifeline, ensuring that these young souls receive vital medical attention they desperately need. With your support, we can offer them treatments, vaccinations, and regular check-ups, safeguarding their well-being. Your generosity can turn their dreams into reality, enabling them to grow healthy and strong. Together, we can break the cycle of illness and poverty, nurturing a generation that can thrive. Make a difference today by donating to our cause, and let's build a healthier and brighter future for these vulnerable children.",
+        "price": "$69.99"
+    },
+    {
+        "id": 9,
+        "picture": "https://i.ibb.co/ZHB84QS/Health.png",
+        "title": "Clean water for children",
+        "category_name": "Health",
+        "category_bg": "#0052FF33",
+        "card_bg": "#0052FF26",
+        "button_bg": "#0052FF",
+        "description": "Extend a helping hand to provide free healthcare to impoverished children. Your donation is a lifeline, ensuring that these young souls receive vital medical attention they desperately need. With your support, we can offer them treatments, vaccinations, and regular check-ups, safeguarding their well-being. Your generosity can turn their dreams into reality, enabling them to grow healthy and strong. Together, we can break the cycle of illness and poverty, nurturing a generation that can thrive. Make a difference today by donating to our cause, and let's build a healthier and brighter future for these vulnerable children.",
+        "price": "$99.99"
+    },
+    {
+        "id": 10,
+        "picture": "https://i.ibb.co/0CzDKtL/Rectangle-4288.png",
+        "title": "Good education 5",
+        "category_name": "Education",
+        "category_bg": "#FF444A33",
+        "card_bg": "#FF444A26",
+        "button_bg": "#FF444A",
+        "description": "Join us in making a profound difference in the lives of disadvantaged children. Your donation fuels our commitment to providing free education to these young learners, opening doors to a world of opportunities they might never otherwise access. With your support, we can equip them with knowledge, skills, and hope, breaking the chains of poverty that have held them back. Together, we're nurturing future leaders, innovators, and change-makers. Every contribution, no matter how big or small, is an investment in a brighter tomorrow. Give the gift of education and help us create a more equitable and promising future for these deserving children.",
+        "price": "$49.99"
+    },
+    {
+        "id": 11,
+        "picture": "https://i.ibb.co/chtC7gm/Clothing.png",
+        "title": "Used Clothing Drive 3",
+        "category_name": "Clothing",
+        "category_bg": "#79C23F33",
+        "card_bg": "#79C23F26",
+        "button_bg": "#79C23F",
+        "description": "Join our Used Clothing Drive to promote better health for underprivileged children. By donating your gently used clothing items, you're contributing to their well-being in a unique way. Clean, warm clothes protect these kids from harsh weather and illnesses, allowing them to lead healthier lives. Your participation not only ensures their physical comfort but also boosts their self-esteem, helping them face life's challenges with confidence. Together, we can make a significant impact on their health and happiness. Join us in this compassionate initiative, and let's wrap these children in care and warmth for a brighter and healthier future.",
+        "price": "$59.99"
+    },
+    {
+        "id": 12,
+        "picture": "https://i.ibb.co/0CzDKtL/Rectangle-4288.png",
+        "title": "Good education 6",
+        "category_name": "Education",
+        "category_bg": "#FF444A33",
+        "card_bg": "#FF444A26",
+        "button_bg": "#FF444A",
+        "description": "Join us in making a profound difference in the lives of disadvantaged children. Your donation fuels our commitment to providing free education to these young learners, opening doors to a world of opportunities they might never otherwise access. With your support, we can equip them with knowledge, skills, and hope, breaking the chains of poverty that have held them back. Together, we're nurturing future leaders, innovators, and change-makers. Every contribution, no matter how big or small, is an investment in a brighter tomorrow. Give the gift of education and help us create a more equitable and promising future for these deserving children.",
+        "price": "$24.99"
+    }
+]
